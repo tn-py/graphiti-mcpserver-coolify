@@ -22,7 +22,7 @@ services:
   graphiti-mcp:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: mcp_server/Dockerfile
     env_file:
       - path: .env
         required: true # Makes the file optional. Default value is 'true'
